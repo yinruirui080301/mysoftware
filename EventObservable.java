@@ -1,7 +1,7 @@
 package com.pattern.observer;
 
 import java.util.Observable;
-
+// 这是被观察者类
 public class EventObservable extends Observable {
 	private int obj[];
 	 private void notifyEvent(){
